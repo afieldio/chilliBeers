@@ -12,5 +12,11 @@
 		</a>
 			
 	<?php endforeach ;?>
+
+	<?php if (!$_SESSION['loggedIn']): ?>
+		<a href="" title="">LOGIN</a>
+	<?php else :?>
+		<a href="" title="">LOGOUT</a>
+	<?php endif; ?>
 </body>
 </html>

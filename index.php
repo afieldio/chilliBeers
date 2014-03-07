@@ -16,7 +16,6 @@ if (isset($_GET['page'])) {
     $page = 'home_controller';
 }
 
-print_r($_GET['page']);
 
 include(CONTROLLERS . $page . '.php');
 
