@@ -3,6 +3,8 @@
 
 include(DATA.'users.php');
 
+//session_destroy();
+
 $email = $_POST['email'];
 $password = $_POST['password'];
 

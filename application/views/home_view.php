@@ -14,7 +14,7 @@
 	<?php endforeach ;?>
 
 	<?php if (!$_SESSION['loggedIn']): ?>
-		<a href="" title="">LOGIN</a>
+		<a href="?page=login_controller" title="">LOGIN</a>
 	<?php else :?>
 		<a href="" title="">LOGOUT</a>
 	<?php endif; ?>
