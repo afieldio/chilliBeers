@@ -11,6 +11,10 @@
     <li><a href="#" title="">About Page</a></li>
     <li><a href="#" title="">Info Page</a></li>
     <li><a href="#" title="">Contact Page</a></li>
+    <?php if(probeAdmin()):?>
+    	<li><a href="#" title="Admin">Admin</a></li>
+    <?php endif;?>
+    <li><a href='?page=basket'>Basket(<?php echo itemsInBasket(); ?>)</a></li>
 </ul>
 
 <?php if(!loggedIn()): ?>
