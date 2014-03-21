@@ -1,0 +1,23 @@
+1. Create the header and footer pages, include these into the other controllers
+
+2. Improve the mysqli query for the getUSerByDetail
+
+3. Login remove the action...this can be done from the controller
+
+4. Create a function file and include this into the init file
+
+5. Might need this for debugging
+	error_reporting(E_ALL);
+	ini_set('display_errors', 'on');
+
+6. Function for checking the session
+
+<?php if(isset($_SESSION['user'])):?>
+<?php echo 'Session set';?>
+<?php else:?>
+<?php echo 'Session not set';?>
+<?php endif;?>
+
+7. ?action=logout
+
+
