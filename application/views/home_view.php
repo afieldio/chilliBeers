@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Home Page</title>
-</head>
+
 <body>
 	<h1>Home Page</h1>
 	<?php foreach ($items as $item) : ?>
@@ -18,5 +14,3 @@
 	<?php else :?>
 		<a href="" title="">LOGOUT</a>
 	<?php endif; ?>
-</body>
-</html>

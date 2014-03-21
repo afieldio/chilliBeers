@@ -26,4 +26,6 @@ if ($_SESSION['loggedIn'] == true) {
 	echo 'not logged in';
 }
 
+include(VIEWS. 'header_view.php');
 include(VIEWS.'login_view.php');
+include(VIEWS.'footer_view.php');
